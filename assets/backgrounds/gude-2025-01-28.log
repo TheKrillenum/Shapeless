@@ -1,0 +1,29 @@
+08:14:05:298 [ALWAYS]	GUDE Logging Started
+08:14:05:299 [INFO]	SqliteResumeCache::SqliteResumeCache basedirectory is null/empty
+08:14:05:300 [ERROR]	SqliteResumeCache::CreateSqliteResumeCache creating resume cache pointer failure
+08:14:05:300 [ERROR]	Initialize resume cache pointer failure
+08:14:05:301 [INFO]	gude policy POLICY_USER limit (2,2,1) chunk 2097152, chunking (UL 0 DL 1), resXfer 1, adapt 0, NSURL 0, timeout 86400 
+08:14:05:301 [INFO]	Initialized -- gude-lib version: v0.12.1 app: gude
+08:14:13:939 [WARN]	Ignoring attempt to reinit logging to \gude at level 4 retaining 3 days of logs
+08:14:13:939 [INFO]	SqliteResumeCache::SqliteResumeCache basedirectory is null/empty
+08:14:13:939 [ERROR]	SqliteResumeCache::CreateSqliteResumeCache creating resume cache pointer failure
+08:14:13:940 [ERROR]	Initialize resume cache pointer failure
+08:14:13:941 [INFO]	gude policy POLICY_USER limit (4,4,1) chunk 2097152, chunking (UL 0 DL 1), resXfer 1, adapt 0, NSURL 1, timeout 86400 
+08:14:13:941 [INFO]	Initialized -- gude-lib version: v0.12.1 app: gude
+08:14:13:948 [WARN]	WGudeRequest::applyAutoDetectProxyAutoConfigSettings Failed to autodetect proxy settings. WinHTTP Unable To Download Script. last error code = 12167 
+08:14:14:140 [WARN]	WGudeRequest::applyAutoDetectProxyAutoConfigSettings Failed to autodetect proxy settings. WinHTTP Unable To Download Script. last error code = 12167 
+08:14:14:140 [WARN]	WGudeRequest::applyAutoDetectProxyAutoConfigSettings Failed to autodetect proxy settings. WinHTTP Unable To Download Script. last error code = 12167 
+08:14:14:385 [WARN]	WGudeRequest::applyAutoDetectProxyAutoConfigSettings Failed to autodetect proxy settings. WinHTTP Unable To Download Script. last error code = 12167 
+08:14:14:542 [WARN]	WGudeRequest::applyAutoDetectProxyAutoConfigSettings Failed to autodetect proxy settings. WinHTTP Unable To Download Script. last error code = 12167 
+15:13:36:069 [ALWAYS]	GUDE Logging Started
+15:13:36:070 [INFO]	SqliteResumeCache::SqliteResumeCache basedirectory is null/empty
+15:13:36:070 [ERROR]	SqliteResumeCache::CreateSqliteResumeCache creating resume cache pointer failure
+15:13:36:070 [ERROR]	Initialize resume cache pointer failure
+15:13:36:071 [INFO]	gude policy POLICY_USER limit (2,2,1) chunk 2097152, chunking (UL 0 DL 1), resXfer 1, adapt 0, NSURL 0, timeout 86400 
+15:13:36:071 [INFO]	Initialized -- gude-lib version: v0.12.1 app: gude
+15:13:43:345 [WARN]	Ignoring attempt to reinit logging to \gude at level 4 retaining 3 days of logs
+15:13:43:346 [INFO]	SqliteResumeCache::SqliteResumeCache basedirectory is null/empty
+15:13:43:346 [ERROR]	SqliteResumeCache::CreateSqliteResumeCache creating resume cache pointer failure
+15:13:43:346 [ERROR]	Initialize resume cache pointer failure
+15:13:43:346 [INFO]	gude policy POLICY_USER limit (4,4,1) chunk 2097152, chunking (UL 0 DL 1), resXfer 1, adapt 0, NSURL 1, timeout 86400 
+15:13:43:346 [INFO]	Initialized -- gude-lib version: v0.12.1 app: gude
