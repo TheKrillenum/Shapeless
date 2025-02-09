@@ -20448,7 +20448,7 @@
                         {
                             "command": "EVENT_GROUP",
                             "args": {
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__comment": false
                             },
                             "children": {
@@ -20459,7 +20459,7 @@
                                             "customEventId": "050582f0-54cb-420f-a4ce-71e70906f4cb",
                                             "$variable[V0]$": {
                                                 "type": "number",
-                                                "value": 17
+                                                "value": 16
                                             },
                                             "$variable[V1]$": {
                                                 "type": "number",
@@ -20467,7 +20467,7 @@
                                             },
                                             "$variable[V2]$": {
                                                 "type": "number",
-                                                "value": 17
+                                                "value": 16
                                             },
                                             "$variable[V3]$": {
                                                 "type": "number",
@@ -20475,7 +20475,7 @@
                                             },
                                             "$variable[V4]$": {
                                                 "type": "number",
-                                                "value": 17
+                                                "value": 16
                                             },
                                             "$variable[V5]$": {
                                                 "type": "number",
@@ -38067,7 +38067,8 @@
                                             "command": "EVENT_GROUP",
                                             "args": {
                                                 "__label": "LevelSelect",
-                                                "__comment": true
+                                                "__comment": true,
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -38285,7 +38286,8 @@
                                                     "From Matéo \nCostille",
                                                     "Music made by\nVictor Vicente"
                                                 ],
-                                                "avatarId": ""
+                                                "avatarId": "",
+                                                "__collapse": true
                                             },
                                             "id": "30dbf6e2-91cc-4830-896b-91706fc3a904"
                                         },
@@ -38295,8 +38297,9 @@
                                                 "sceneId": "54c25fe1-dd8b-4184-9c9d-aebcf96cc9b9",
                                                 "x": 0,
                                                 "y": 0,
-                                                "direction": "",
-                                                "fadeSpeed": "2"
+                                                "direction": "right",
+                                                "fadeSpeed": "2",
+                                                "__collapse": false
                                             },
                                             "id": "c57f82c1-947e-4c72-978b-bf7d7a11c533"
                                         }
@@ -51228,8 +51231,8 @@
             "autoFadeSpeed": 1,
             "id": "d2186162-355b-4fc8-9936-134cf5d9e535",
             "symbol": "scene_11",
-            "x": 282.9696969696973,
-            "y": 817.454545454546,
+            "x": 289.21341363875644,
+            "y": 817.0872680034248,
             "actors": [
                 {
                     "name": "Enemy",
@@ -51521,10 +51524,11 @@
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
-                                "variable": "L0",
+                                "variable": "57",
                                 "operator": ">",
                                 "comparator": "0",
-                                "__collapseElse": true
+                                "__collapseElse": true,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -52028,7 +52032,7 @@
                         "collisionMask": [
                             "1"
                         ],
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "0961e548-621d-4ed5-9622-344d4e5da20f"
                 },
@@ -65545,7 +65549,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 573.5999755859375,
+        "worldScrollX": 145.60000610351562,
         "worldScrollY": 775.2000122070312,
         "zoom": 87.5,
         "customColorsEnabled": false,

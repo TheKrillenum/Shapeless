@@ -13737,6 +13737,13 @@
                                             "id": "0af839d9-285e-460d-9329-3c5aa7655ad9"
                                         },
                                         {
+                                            "command": "EVENT_SET_FALSE",
+                                            "args": {
+                                                "variable": "23"
+                                            },
+                                            "id": "d723d555-d1c3-4f04-88a6-ffd004c0f817"
+                                        },
+                                        {
                                             "command": "EVENT_SET_TRUE",
                                             "args": {
                                                 "variable": "28",
@@ -13819,7 +13826,7 @@
                             {
                                 "command": "EVENT_GROUP",
                                 "args": {
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "__label": "HUD, Health & attack init",
                                     "__comment": false
                                 },
@@ -20441,7 +20448,7 @@
                         {
                             "command": "EVENT_GROUP",
                             "args": {
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__comment": false
                             },
                             "children": {
@@ -20452,7 +20459,7 @@
                                             "customEventId": "050582f0-54cb-420f-a4ce-71e70906f4cb",
                                             "$variable[V0]$": {
                                                 "type": "number",
-                                                "value": 17
+                                                "value": 16
                                             },
                                             "$variable[V1]$": {
                                                 "type": "number",
@@ -20460,7 +20467,7 @@
                                             },
                                             "$variable[V2]$": {
                                                 "type": "number",
-                                                "value": 17
+                                                "value": 16
                                             },
                                             "$variable[V3]$": {
                                                 "type": "number",
@@ -20468,7 +20475,7 @@
                                             },
                                             "$variable[V4]$": {
                                                 "type": "number",
-                                                "value": 17
+                                                "value": 16
                                             },
                                             "$variable[V5]$": {
                                                 "type": "number",
@@ -23169,6 +23176,13 @@
                                                 "__collapse": true
                                             },
                                             "id": "77b93745-8f04-4bf5-b38a-91e1ab2c1ab6"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_FALSE",
+                                            "args": {
+                                                "variable": "23"
+                                            },
+                                            "id": "7af020ed-cbf3-4153-8be8-4b25a56f9825"
                                         },
                                         {
                                             "command": "EVENT_SET_TRUE",
@@ -35737,6 +35751,13 @@
                                             "id": "cd8ac473-e120-42aa-a8e6-09c97cc0ae0f"
                                         },
                                         {
+                                            "command": "EVENT_SET_FALSE",
+                                            "args": {
+                                                "variable": "23"
+                                            },
+                                            "id": "a9a379fa-6fb4-4441-9a58-9e5b7919d308"
+                                        },
+                                        {
                                             "command": "EVENT_SET_TRUE",
                                             "args": {
                                                 "variable": "21",
@@ -38046,7 +38067,8 @@
                                             "command": "EVENT_GROUP",
                                             "args": {
                                                 "__label": "LevelSelect",
-                                                "__comment": true
+                                                "__comment": true,
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -38264,7 +38286,8 @@
                                                     "From Matéo \nCostille",
                                                     "Music made by\nVictor Vicente"
                                                 ],
-                                                "avatarId": ""
+                                                "avatarId": "",
+                                                "__collapse": true
                                             },
                                             "id": "30dbf6e2-91cc-4830-896b-91706fc3a904"
                                         },
@@ -38274,8 +38297,9 @@
                                                 "sceneId": "54c25fe1-dd8b-4184-9c9d-aebcf96cc9b9",
                                                 "x": 0,
                                                 "y": 0,
-                                                "direction": "",
-                                                "fadeSpeed": "2"
+                                                "direction": "right",
+                                                "fadeSpeed": "2",
+                                                "__collapse": false
                                             },
                                             "id": "c57f82c1-947e-4c72-978b-bf7d7a11c533"
                                         }
@@ -48746,6 +48770,13 @@
                                             "id": "df4bd89a-43c4-457c-b67c-017876162cd5"
                                         },
                                         {
+                                            "command": "EVENT_SET_FALSE",
+                                            "args": {
+                                                "variable": "23"
+                                            },
+                                            "id": "39ec1735-dd1b-4e5a-a517-ddc5eb528529"
+                                        },
+                                        {
                                             "command": "EVENT_SET_TRUE",
                                             "args": {
                                                 "variable": "21",
@@ -51493,10 +51524,11 @@
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
-                                "variable": "L0",
+                                "variable": "57",
                                 "operator": ">",
                                 "comparator": "0",
-                                "__collapseElse": true
+                                "__collapseElse": true,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -52000,7 +52032,7 @@
                         "collisionMask": [
                             "1"
                         ],
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "0961e548-621d-4ed5-9622-344d4e5da20f"
                 },
@@ -65517,9 +65549,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 344.79998779296875,
+        "worldScrollX": 141.60000610351562,
         "worldScrollY": 0,
-        "zoom": 87.5,
+        "zoom": 84.77372574806213,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
